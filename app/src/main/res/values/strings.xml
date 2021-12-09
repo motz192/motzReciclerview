@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerLugares_MBCA</string>
+    <string name="recycler_view_lugares">Recycler view Lugares</string>
+    <string name="title_activity_mapa_reciclable">mapaReciclable</string>
+</resources>

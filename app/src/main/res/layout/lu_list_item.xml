@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+
+    android:layout_margin="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginHorizontal="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginLeft="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginRight="@dimen/cardview_compat_inset_shadow"
+    android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/cardview_shadow_start_color"
+    android:outlineSpotShadowColor="@color/cardview_dark_background"
+    app:layout_marginBaseline="@dimen/cardview_compat_inset_shadow">
+
+    <TextView
+        android:id="@+id/tvLugar"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E112E1" />
+
+    <TextView
+        android:id="@+id/tvEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp" />
+
+</LinearLayout>
