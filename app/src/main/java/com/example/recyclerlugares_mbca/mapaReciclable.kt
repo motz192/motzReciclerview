@@ -54,7 +54,6 @@ class mapaReciclable : AppCompatActivity(), OnMapReadyCallback {
             "Soriana" -> lugar = LatLng(19.934119082033842, -96.85071084709212)
             "Bodegas" -> lugar = LatLng(19.932284980911184, -96.84888960045238)
             else -> lugar = LatLng(19.950419851167535, -96.84389641992085)
-
         }
         mMap.setMinZoomPreference(15.0f)
         mMap.addMarker(MarkerOptions().position(lugar).title("Marca en recibido"))
